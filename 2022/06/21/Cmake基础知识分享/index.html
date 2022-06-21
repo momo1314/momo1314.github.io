@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://momo1314.github.io/2022/06/21/Cmake%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/result1.png">
 <meta property="article:published_time" content="2022-06-21T07:46:18.000Z">
-<meta property="article:modified_time" content="2022-06-21T08:36:03.942Z">
+<meta property="article:modified_time" content="2022-06-21T08:40:19.001Z">
 <meta property="article:author" content="Jimmy">
 <meta property="article:tag" content="Cmake">
 <meta property="article:tag" content="网络文章收集">
@@ -251,7 +251,7 @@
         
         
         
-          40 分钟
+          39 分钟
         
       </span>
     
@@ -357,7 +357,6 @@
 
 <h2 id="八-CMake-string-REPLACE"><a href="#八-CMake-string-REPLACE" class="headerlink" title="八. CMake string REPLACE"></a>八. CMake string REPLACE</h2><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cmake"><span class="hljs-keyword">cmake_minimum_required</span>(VERSION <span class="hljs-number">3.5</span>) <br><span class="hljs-keyword">project</span>(<span class="hljs-keyword">test</span>) <br><span class="hljs-keyword">set</span>(in <span class="hljs-string">&quot;ONEFLOW::test&quot;</span>) <br><span class="hljs-keyword">message</span>( STATUS <span class="hljs-string">&quot;in = $&#123;in&#125;&quot;</span> ) <br><span class="hljs-keyword">string</span>(REPLACE <span class="hljs-string">&quot;::&quot;</span> <span class="hljs-string">&quot;_&quot;</span> out <span class="hljs-string">&quot;$&#123;in&#125;&quot;</span>) <br><span class="hljs-keyword">message</span>( STATUS <span class="hljs-string">&quot;out = $&#123;out&#125;&quot;</span> )<br></code></pre></td></tr></table></figure>
 
-<p>target_link_libraries</p>
 <p>结果：</p>
 <img src="/2022/06/21/Cmake%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%88%86%E4%BA%AB/result1.png" srcset="/img/loading.gif" lazyload class="" title="rep;ace">
 
